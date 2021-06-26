@@ -21,8 +21,8 @@
 
         Dim it As IEnumerator = mylist.GetEnumerator()
 
-        While it.MoveNext
-            Debug.WriteLine(it.Current)
+        While it.MoveNext()
+            Debug.Write(it.Current)
         End While
 
         For Each element In mylist
