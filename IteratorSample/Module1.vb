@@ -34,7 +34,7 @@
         mylist2.AppendElement("y")
         mylist2.AppendElement("z")
 
-        For Each element In mylist2.GetEnumerable
+        For Each element In mylist2.a
             Debug.WriteLine(element)
         Next
 
